@@ -9,6 +9,21 @@ It routes user requests to focused workflows for Blueprint, C++, UI, networking,
 - Runtime: Codex CLI + Unreal project workspace
 - Goal: deterministic routing and reusable task workflows
 
+## Risk Notice (Testing Stage)
+
+This skill pack is currently in testing and iterative improvement stage.
+Use with caution in production projects.
+
+- Always back up your project before applying changes generated from skills.
+- Validate in a sandbox/test branch first, then merge into production.
+- Review generated Blueprint/C++ changes before final integration.
+
+Chinese notice:
+
+- 当前技能包处于测试阶段，请谨慎在正式项目中使用。
+- 使用前请先做好项目备份，并优先在测试分支验证后再合入主分支。
+- 欢迎大家共同构建和完善本技能包（规则、话术、工作流与示例）。
+
 ## Skills
 
 - `ue5-auto-assistant`: natural-language entry and auto-routing
