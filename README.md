@@ -1,5 +1,9 @@
 # UnrealEngine5-Skills
 
+[English](#english) | [中文](#中文)
+
+## English
+
 A practical Codex skill pack for Unreal Engine **5.6/5.7** projects.
 
 This repository provides reusable skill workflows to help with:
@@ -12,7 +16,7 @@ This repository provides reusable skill workflows to help with:
 - Performance and packaging checks
 - Architecture and module-boundary design
 
-## Skill List
+### Skill List
 
 - `ue5-auto-assistant`: default entry and intent-based routing
 - `ue5-module-router`: module name/alias based routing
@@ -25,7 +29,7 @@ This repository provides reusable skill workflows to help with:
 - `ue5-ui-umg-slate`: UMG/Slate implementation guidance
 - `ue5-world-interaction`: pickups, spawners, overlap/trace interaction logic
 
-## Quick Start
+### Quick Start
 
 1. Start with `ue5-auto-assistant`.
 2. If module names appear, route with `ue5-module-router`.
@@ -33,7 +37,7 @@ This repository provides reusable skill workflows to help with:
 
 More details are in [skills/README.md](./skills/README.md).
 
-## Validation
+### Validation
 
 Run:
 
@@ -43,7 +47,55 @@ python .\skills\scripts\validate_skills.py
 
 Expected output: `Validation OK`
 
-## License
+### License
 
 This project is licensed under the MIT License. See [LICENSE](./LICENSE).
 
+## 中文
+
+这是一个面向 Unreal Engine **5.6/5.7** 的 Codex 技能包。
+
+仓库提供可复用的技能工作流，覆盖：
+
+- Blueprint 功能实现
+- Gameplay C++ 开发
+- UI（UMG/Slate）开发
+- 存档/读档与多人同步
+- 调试与验证
+- 性能与打包检查
+- 架构与模块边界设计
+
+### 技能列表
+
+- `ue5-auto-assistant`：默认入口，按意图自动路由
+- `ue5-module-router`：按模块名/别名进行路由
+- `ue5-architecture`：模块划分、Build.cs 依赖、职责边界设计
+- `ue5-blueprint-workflow`：Blueprint 图表编辑与输入事件工作流
+- `ue5-cpp-gameplay`：UE5.6/5.7 Gameplay C++ 实现模式
+- `ue5-debug-validation`：问题排查与验证工作流
+- `ue5-performance-packaging`：运行时性能与打包前检查
+- `ue5-save-load-replication`：SaveGame 与多人同步工作流
+- `ue5-ui-umg-slate`：UMG/Slate UI 开发指导
+- `ue5-world-interaction`：拾取、生成器、Overlap/Trace 交互逻辑
+
+### 快速开始
+
+1. 先从 `ue5-auto-assistant` 开始。
+2. 如果请求里出现模块名，使用 `ue5-module-router` 做精确路由。
+3. 按路由结果执行目标技能工作流。
+
+更多细节见 [skills/README.md](./skills/README.md)。
+
+### 校验
+
+运行：
+
+```powershell
+python .\skills\scripts\validate_skills.py
+```
+
+期望输出：`Validation OK`
+
+### 许可证
+
+本项目采用 MIT License，详见 [LICENSE](./LICENSE)。
