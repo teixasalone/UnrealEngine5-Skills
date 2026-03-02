@@ -21,6 +21,7 @@ It routes user requests to focused workflows for Blueprint, C++, UI, networking,
 - `ue5-save-load-replication`: save/load and multiplayer sync
 - `ue5-ui-umg-slate`: UMG/Slate UI workflow
 - `ue5-world-interaction`: pickups, spawners, traces, overlap logic
+- `ue5-pcg-building`: PCG and Shape Grammar building generation workflow
 
 ## Key Routing Data
 

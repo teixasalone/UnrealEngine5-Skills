@@ -1,0 +1,3 @@
+display_name: UE5.6/UE5.7 PCG Building
+short_description: Build modular and rule-driven building generation pipelines with UE PCG and Shape Grammar.
+default_prompt: Implement this UE5.6/UE5.7 PCG building feature using deterministic graph stages, shape grammar rules, and performance-safe runtime generation.
