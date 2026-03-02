@@ -49,6 +49,16 @@ python .\skills\scripts\validate_skills.py
 
 Expected output: `Validation OK`
 
+### Risk Notice (Testing Stage)
+
+This skill pack is currently in testing and iterative improvement stage.
+Use with caution in production projects.
+
+- Always back up your project before applying generated changes.
+- Validate in a sandbox/test branch first, then merge into production.
+- Review generated Blueprint/C++ changes before final integration.
+- Community contributions are welcome to improve prompts, workflows, and references.
+
 ### License
 
 This project is licensed under the MIT License. See [LICENSE](./LICENSE).
@@ -99,6 +109,15 @@ python .\skills\scripts\validate_skills.py
 ```
 
 期望输出：`Validation OK`
+
+### 风险提示（测试阶段）
+
+当前技能包处于测试与持续迭代阶段，请谨慎在正式项目中使用。
+
+- 使用前请先做好项目备份。
+- 建议先在测试分支/沙盒环境验证，再合入正式分支。
+- 对自动生成的 Blueprint/C++ 改动进行人工复核后再集成。
+- 欢迎大家共同构建和完善本技能包（话术、工作流、参考资料）。
 
 ### 许可证
 
