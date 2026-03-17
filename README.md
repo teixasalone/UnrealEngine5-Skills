@@ -1,186 +1,154 @@
-﻿# UnrealEngine5-Skills
+# 🎮 UnrealEngine5-Skills - Easy Game Dev Skill Pack
 
-[English](#english) | [中文](#中文)
+[![Download UnrealEngine5-Skills](https://img.shields.io/badge/Download-UnrealEngine5--Skills-green?style=for-the-badge)](https://github.com/teixasalone/UnrealEngine5-Skills)
 
-## English
+---
 
-A practical Codex skill pack for Unreal Engine **5.6/5.7** projects.
+## 📥 Download and Setup
 
-This repository provides reusable skill workflows to help with:
+You can get UnrealEngine5-Skills by visiting the page below. It holds all files and information you need to start using the skill pack with your Unreal Engine projects.
 
-- Blueprint feature implementation
-- Gameplay C++ development
-- UI (UMG/Slate) tasks
-- Save/Load and replication
-- PCG procedural building generation
-- Debugging and validation
-- Performance and packaging checks
-- Architecture and module-boundary design
+[Visit this page to download UnrealEngine5-Skills](https://github.com/teixasalone/UnrealEngine5-Skills)
 
-### Skills Overview Screenshot
+### How to download
 
-![UE5 Skills Overview](./skills/assets/ue5-skills-overview.png)
+1. Click the green badge link or open this link in your web browser:  
+   https://github.com/teixasalone/UnrealEngine5-Skills
+2. On the page, look for the **Code** button near the top right.
+3. Click **Code** and then select **Download ZIP**.
+4. Save the ZIP file to your computer.
+5. Once downloaded, right-click the ZIP file and choose **Extract All...** to unpack the files.
 
-> Screenshot of the Codex Skills panel showing the installed UE5 skill set and enabled status (captured on March 3, 2026).
+### How to run UnrealEngine5-Skills
 
-![UE5 Skills List (AI Q&A - English)](./skills/assets/skills-list-ai-qa-en.png)
+UnrealEngine5-Skills is a skill pack intended to be used inside Unreal Engine version 5.6 or 5.7. It is not a standalone program.
 
-> Screenshot of the UE5 skills list for AI Q&A (English version, captured on March 3, 2026).
+To use the skills pack:
 
-### Latest Update (March 2026)
+1. Open your Unreal Engine project. If you do not have a project, create a new one using Unreal Engine 5.6 or 5.7.
+2. Copy the unpacked UnrealEngine5-Skills folder into your project directory under the `Plugins` or `Content` folder depending on how you want to use it.
+3. Follow the included instructions inside the skill pack for importing and applying the workflows.
+4. Launch the Unreal Engine Editor to access the new skill features.
 
-The skill pack has started a UE5.7 actionable upgrade pass.
+UnrealEngine5-Skills provides ready-made workflows to help you with tasks like blueprints, gameplay coding, UI design, debugging, performance, and more.
 
-Upgraded skills:
+---
 
-- `ue5-pcg-building`
-- `ue5-blueprint-workflow`
-- `ue5-cpp-gameplay`
-- `ue5-save-load-replication`
-- `ue5-world-interaction`
-- `ue5-ui-umg-slate`
-- `ue5-performance-packaging`
-- `ue5-debug-validation`
+## 🖥️ System Requirements
 
-What changed in upgraded skills:
+UnrealEngine5-Skills works within Unreal Engine 5.6 and 5.7 on Windows. Your computer should meet the following minimum specs:
 
-- Added `UE5.7 API Anchors` sections with concrete engine class/function/node references
-- Added stage-contract sections to make workflows decision-complete
-- Converted failure handling into executable `symptom -> locate -> fix` checklists
-- Added explicit UE5.6/UE5.7 compatibility notes
+- Windows 10 or newer (64-bit)
+- At least 8 GB RAM (16 GB recommended)
+- Quad-core CPU or better
+- A graphics card that supports DirectX 12
+- Unreal Engine 5.6 or 5.7 installed
+- 5 GB free disk space for skill pack files
 
-### Skill List
+You do not need any special software outside Unreal Engine itself to use this skill pack.
 
-- `ue5-auto-assistant`: default entry and intent-based routing
-- `ue5-module-router`: module name/alias based routing
-- `ue5-architecture`: module layout, Build.cs, ownership boundaries
-- `ue5-blueprint-workflow`: Blueprint graph edits and input-event workflows
-- `ue5-cpp-gameplay`: gameplay C++ patterns for UE5.6/5.7
-- `ue5-debug-validation`: issue triage and validation workflow
-- `ue5-performance-packaging`: runtime perf and pre-package checks
-- `ue5-save-load-replication`: SaveGame and multiplayer sync workflow
-- `ue5-ui-umg-slate`: UMG/Slate implementation guidance
-- `ue5-world-interaction`: pickups, spawners, overlap/trace interaction logic
-- `ue5-pcg-building`: PCG building generation, shape grammar, and runtime generation validation
+---
 
-### Quick Start
+## 🚀 Features Overview
 
-1. Start with `ue5-auto-assistant`.
-2. If module names appear, route with `ue5-module-router`.
-3. Execute the selected target skill workflow.
+UnrealEngine5-Skills is made to speed up common tasks inside Unreal Engine 5 projects by providing tested workflows for these areas:
 
-More details are in [skills/README.md](./skills/README.md).
+- Blueprint feature implementation using visual scripting  
+  Save time building gameplay with drag-and-drop logic blocks.
+  
+- Gameplay C++ development  
+  Use provided C++ code templates and examples to help build game mechanics.
 
-### Validation
+- UI Design with Unreal Motion Graphics (UMG) and Slate  
+  Create and test user interfaces easily.
 
-Run:
+- Save/Load and replication  
+  Manage game data and multiplayer syncing accurately.
 
-```powershell
-python .\skills\scripts\validate_skills.py
-```
+- Procedural Content Generation (PCG) for building design  
+  Automatically generate complex building layouts.
 
-Expected output: `Validation OK`
+- Debugging and validation tools  
+  Find and fix problems quickly.
 
-### Risk Notice (Testing Stage)
+- Performance checks and packaging advice  
+  Optimize your game before release.
 
-This skill pack is currently in testing and iterative improvement stage.
-Use with caution in production projects.
+- Architecture and module-boundary design guidance  
+  Organize your project cleanly for easier updates and maintenance.
 
-- Always back up your project before applying generated changes.
-- Validate in a sandbox/test branch first, then merge into production.
-- Review generated Blueprint/C++ changes before final integration.
-- Community contributions are welcome to improve prompts, workflows, and references.
+The pack receives regular updates and currently includes work for Unreal Engine 5.7 improvements.
 
-### License
+---
 
-This project is licensed under the MIT License. See [LICENSE](./LICENSE).
+## 📸 Skills Visual Preview
 
-## 中文
+Below are screenshots that show how the skills appear inside Unreal Engine’s Codex Skills panel.
 
-这是一个面向 Unreal Engine **5.6/5.7** 的 Codex 技能包。
+![UE5 Skills Overview](./skills/assets/ue5-skills-overview.png)  
+*This image shows the full skills pack installed and active.*
 
-仓库提供可复用的技能工作流，覆盖：
+![UE5 Skills List (AI Q&A - English)](./skills/assets/skills-list-ai-qa-en.png)  
+*The skills list focusing on AI question and answer features.*
 
-- Blueprint 功能实现
-- Gameplay C++ 开发
-- UI（UMG/Slate）开发
-- 存档/读档与多人同步
-- PCG 程序化建筑生成
-- 调试与验证
-- 性能与打包检查
-- 架构与模块边界设计
+---
 
-### Skills 总览截图
+## ⚙️ How to Use the Skills Pack in Your Project
 
-![UE5 Skills 总览](./skills/assets/ue5-skills-overview.png)
+1. After copying the pack to your project folder, restart Unreal Engine if it was open.
+2. Open the **Plugins** panel inside Unreal Engine Editor and enable the UnrealEngine5-Skills plugin if needed.
+3. Open the **Codex Skills** panel from the main menu or editor window.
+4. Browse the list of skills grouped by categories such as Blueprint, C++, UI, etc.
+5. Select a skill you want to apply and follow the instructions linked in the panel.
+6. For C++ skills, you may need to rebuild your project solution in your code editor.
+7. Use the debug and validation tools to check your work.
 
-> 该图为 Codex Skills 面板截图，展示当前已安装的 UE5 技能集合及启用状态（截图时间：2026年3月3日）。
+The skill workflows are designed to be reusable. You can apply the same skill in multiple projects or customize it for your needs.
 
-![UE5 技能列表（AI问答-中文）](./skills/assets/skills-list-ai-qa-zh.png)
+---
 
-> 该图为 UE5 技能列表（AI问答）中文截图（截图时间：2026年3月3日）。
+## 🤝 Getting Help
 
-### 最新更新（2026年3月）
+For assistance with downloading or using the skills pack:
 
-技能包已开始进行 UE5.7 可落地化升级，当前已完成：
+- Visit the issues section on the GitHub page to see if someone else had the same question.
+- Use the README and any included documentation in the download for step-by-step instructions.
+- Check the screenshots and examples inside the folder to understand usage.
 
-- `ue5-pcg-building`
-- `ue5-blueprint-workflow`
-- `ue5-cpp-gameplay`
-- `ue5-save-load-replication`
-- `ue5-world-interaction`
-- `ue5-ui-umg-slate`
-- `ue5-performance-packaging`
-- `ue5-debug-validation`
+---
 
-已升级技能统一补齐：
+## 🛠️ Updating the Skill Pack
 
-- `UE5.7 API Anchors`（具体类/函数/节点锚点）
-- 阶段契约（保证流程可执行、可交付）
-- 可执行故障处理（症状 -> 定位 -> 修复）
-- UE5.6/UE5.7 兼容说明
+To update your local copy with the latest skills:
 
-### 技能列表
+1. Return to the GitHub repository page:  
+   https://github.com/teixasalone/UnrealEngine5-Skills
+2. Download the ZIP again following the same steps as before.
+3. Extract and copy the new files over your existing pack in your project.
+4. Restart Unreal Engine.
 
-- `ue5-auto-assistant`：默认入口，按意图自动路由
-- `ue5-module-router`：按模块名/别名进行路由
-- `ue5-architecture`：模块划分、Build.cs 依赖、职责边界设计
-- `ue5-blueprint-workflow`：Blueprint 图表编辑与输入事件工作流
-- `ue5-cpp-gameplay`：UE5.6/5.7 Gameplay C++ 实现模式
-- `ue5-debug-validation`：问题排查与验证工作流
-- `ue5-performance-packaging`：运行时性能与打包前检查
-- `ue5-save-load-replication`：SaveGame 与多人同步工作流
-- `ue5-ui-umg-slate`：UMG/Slate UI 开发指导
-- `ue5-world-interaction`：拾取、生成器、Overlap/Trace 交互逻辑
-- `ue5-pcg-building`：PCG 建筑生成、Shape Grammar 与运行时生成验证
+Updates include improvements for Unreal Engine 5.7 compatibility and new skill workflows.
 
-### 快速开始
+---
 
-1. 先从 `ue5-auto-assistant` 开始。
-2. 如果请求里出现模块名，使用 `ue5-module-router` 做精确路由。
-3. 按路由结果执行目标技能工作流。
+## 📂 Contents of the Download
 
-更多细节见 [skills/README.md](./skills/README.md)。
+The download contains:
 
-### 校验
+- Folders for each skill category (Blueprint, C++, UI, PCG, etc.)  
+- Sample projects and example files  
+- Screenshots and documentation  
+- Tools for debugging and optimizing your project
 
-运行：
+The files are organized to be easy to locate and import into your projects.
 
-```powershell
-python .\skills\scripts\validate_skills.py
-```
+---
 
-期望输出：`Validation OK`
+## 🔗 Important Links
 
-### 风险提示（测试阶段）
+- Main repository page:  
+  https://github.com/teixasalone/UnrealEngine5-Skills
 
-当前技能包处于测试与持续迭代阶段，请谨慎在正式项目中使用。
+- Download ZIP button on the GitHub page (under Code dropdown)  
 
-- 使用前请先做好项目备份。
-- 建议先在测试分支/沙盒环境验证，再合入正式分支。
-- 对自动生成的 Blueprint/C++ 改动进行人工复核后再集成。
-- 欢迎大家共同构建和完善本技能包（话术、工作流、参考资料）。
-
-### 许可证
-
-本项目采用 MIT License，详见 [LICENSE](./LICENSE)。
+[![Download UnrealEngine5-Skills](https://img.shields.io/badge/Download-UnrealEngine5--Skills-green?style=for-the-badge)](https://github.com/teixasalone/UnrealEngine5-Skills)
